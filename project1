@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Galerías con JavaScript. Carrusel de imágenes</title>
+    <meta charset="utf-8">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script src="js/carousel.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Galerías con JavaScript</h1>
+        <h2>Carrusel manual</h2>
+    </header>
+    <section>
+        <h3>Carrusel controlado por el usuario</h3>
+        <div id="galeria">
+            <figure>
+                <img src="img/flores.jpg" alt="">
+                <figcaption>Preparación de un ramo</figcaption>
+            </figure>
+            <figure>
+                <img src="img/cinta.jpg" alt="">
+                <figcaption>Cintas para preparar ramos</figcaption>
+            </figure>
+            <figure>
+                <img src="img/fondo.jpg" alt="">
+                <figcaption>Las flores son bonitas</figcaption>
+            </figure>
+            <figure>
+                <img src="img/jardineria.jpg" alt="">
+                <figcaption>Herramientas de jardinería</figcaption>
+            </figure>
+            <figure>
+                <img src="img/escultura.jpg" alt="">
+                <figcaption>Abalorios para decoración</figcaption>
+            </figure>
+            <figure>
+                <img src="img/jarron.jpg" alt="">
+                <figcaption>Quedan muy bien en un jarrón</figcaption>
+            </figure>
+        </div>
+
+        <!--Círculos inferiores-->
+        <div id="circulos">
+            <div onclick="setImagenActual(1)"></div>
+            <div onclick="setImagenActual(2)"></div>
+            <div onclick="setImagenActual(3)"></div>
+            <div onclick="setImagenActual(4)"></div>
+            <div onclick="setImagenActual(5)"></div>
+            <div onclick="setImagenActual(6)"></div>
+        </div>
+    </section>
+
+</body>
+
+</html>
